@@ -1,0 +1,10 @@
+server:
+    port: 8761
+
+eureka:
+    client:                                                # change if we have multipple eureka servers
+        fetch-registry: false                              # Don`t fetch from other eureka servers
+        register-with-eureka: false                        # Don't register with other eureka 
+        # serviceUrl:
+        #         defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+
